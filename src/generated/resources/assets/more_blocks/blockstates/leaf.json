@@ -1,5 +1,8 @@
 {
+  "forge_marker": 1,
   "variants": {
-    "normal": { "model": "more_blocks:leaf" }
+    "normal": {
+      "model": "more_blocks:leaf"
+    }
   }
 }
