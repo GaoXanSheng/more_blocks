@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "more_blocks",
+    "name": "More_Blocks",
+    "description": "",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://gitee.com/ToSimplZ/more-blocks",
+    "updateUrl": "https://gitee.com/ToSimplZ/more-blocks",
+    "authorList": ["Yun_Nan"],
+    "credits": "",
+    "logoFile": "icon.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
