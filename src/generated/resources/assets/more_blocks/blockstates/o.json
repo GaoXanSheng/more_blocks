@@ -1,7 +1,7 @@
 {
   "variants": {
     "normal": {
-      "model": "more_blocks:test_block"
+      "model": "more_blocks:o"
     }
   }
 }
