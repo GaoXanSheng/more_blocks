@@ -1,17 +1,20 @@
 package yunmouren.top.more_blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
 import yunmouren.top.more_blocks.CreateTabs.CreateTabLoader;
-import yunmouren.top.more_blocks.Proxy.CommonProxy;
+import yunmouren.top.more_blocks.Register.BlockList.BlockItems;
 import yunmouren.top.more_blocks.Register.Register;
 
 @Mod(
@@ -92,10 +95,6 @@ public class More_Blocks {
         @SubscribeEvent
         public static void addItems(RegistryEvent.Register<Item> event) {
             Register.ItemBlock(event);
-           /*
-             event.getRegistry().register(new ItemBlock(Blocks.myBlock).setRegistryName(MOD_ID, "myBlock"));
-             event.getRegistry().register(new MySpecialItem().setRegistryName(MOD_ID, "mySpecialItem"));
-            */
         }
         //注册方块
 
@@ -110,6 +109,15 @@ public class More_Blocks {
             */
         }
     }
-    @SidedProxy(clientSide = "yunmouren.top.more_blocks.Proxy.ClientProxy", serverSide = "yunmouren.top.more_blocks.Proxy.CommonProxy")
-    public static CommonProxy proxy;
+
+    @Mod.EventBusSubscriber(value = Side.CLIENT, modid = MOD_ID)
+    public static final class ModelMapper {
+        @SubscribeEvent
+        public static void onModelReg(ModelRegistryEvent event) {
+            for (Block i : BlockItems.blocks) {
+                ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(i), 0, new ModelResourceLocation(i.getRegistryName(), "inventory"));
+            }
+        }
+    }
+
 }

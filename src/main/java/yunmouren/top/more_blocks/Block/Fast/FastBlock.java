@@ -10,17 +10,21 @@ import net.minecraft.util.BlockRenderLayer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import yunmouren.top.more_blocks.CreateTabs.CreateTabLoader;
-import yunmouren.top.more_blocks.Proxy.IHasModel;
 import yunmouren.top.more_blocks.Register.BlockList.BlockItems;
 import yunmouren.top.more_blocks.Tools.Illumination;
 
-import static yunmouren.top.more_blocks.More_Blocks.proxy;
+import static yunmouren.top.more_blocks.More_Blocks.MOD_ID;
 
-public class FastBlock extends Block implements IHasModel {
+public class FastBlock extends Block {
+    public String name;
+    public Item BlockItem;
+
     public FastBlock(String name) {
+
         super(Material.ROCK);
+        this.name = name;
         this.setTranslationKey(name);
-        this.setRegistryName(name);
+        this.setRegistryName(MOD_ID, name);
         this.setCreativeTab(CreateTabLoader.CreativeTabs);
         this.setBlockUnbreakable();
         this.setResistance(4000);
@@ -28,20 +32,15 @@ public class FastBlock extends Block implements IHasModel {
         this.setSoundType(SoundType.STONE);
         this.setLightOpacity(new Illumination().Illumination(15));
         BlockItems.blocks.add(this);
-        BlockItems.items.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        BlockItems.items.add(new ItemBlock(this).setRegistryName(MOD_ID, name));
+
     }
 
     public boolean isOpaqueCube(IBlockState state) {
         return false;
     }
-
     @SideOnly(Side.CLIENT)
     public BlockRenderLayer getRenderLayer() {
         return BlockRenderLayer.TRANSLUCENT;
-    }
-
-    @Override
-    public void registerModel() {
-        proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
 }

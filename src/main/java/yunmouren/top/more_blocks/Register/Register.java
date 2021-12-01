@@ -16,7 +16,11 @@ public class Register {
 
     public void ItemBlock(RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll(
-               BlockItems.items.toArray(new Item[0])
+                BlockItems.items.toArray(new Item[0])
         );
+    }
+
+    public void CustomModel(Block BlockName) {
+
     }
 }

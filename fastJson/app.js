@@ -12,13 +12,13 @@ for(let i =0;i<data.length;i++){
         {
             "parent": "block/cube_all",
             "textures": {
-              "all": "more_blocks:block/"+`${data[i]}`
+              "all": "more_blocks:blocks/"+`${data[i]}`
             }
           }
     ))
     fs.writeFileSync(`../src/generated/resources/assets/more_blocks/models/item/${data[i]}.json`,JSON.stringify(
-        {
-            "parent": "more_blocks:block/"+`${data[i]}`
-          }
+    {
+      "parent": "more_blocks:block/"+`${data[i]}`
+    }
     ))
 }
