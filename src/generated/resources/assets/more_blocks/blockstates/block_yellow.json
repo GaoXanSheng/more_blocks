@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:block_yellow"
+      },
+      {
+        "model": "more_blocks:block_yellow",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:block_yellow",
+        "y": 180
+      },
+      {
+        "model": "more_blocks:block_yellow",
+        "y": 270
+      }
+    ]
+  }
+}

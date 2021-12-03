@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:blue_grass"
+      },
+      {
+        "model": "more_blocks:blue_grass",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:blue_grass",
+        "y": 180
+      },
+      {
+        "model": "more_blocks:blue_grass",
+        "y": 270
+      }
+    ]
+  }
+}

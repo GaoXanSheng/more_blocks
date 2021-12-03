@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:white_brick"
+      },
+      {
+        "model": "more_blocks:white_brick",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:white_brick",
+        "y": 180
+      },
+      {
+        "model": "more_blocks:white_brick",
+        "y": 270
+      }
+    ]
+  }
+}

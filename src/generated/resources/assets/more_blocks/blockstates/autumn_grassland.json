@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:autumn_grassland"
+      },
+      {
+        "model": "more_blocks:autumn_grassland",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:autumn_grassland",
+        "y": 180
+      },
+      {
+        "model": "more_blocks:autumn_grassland",
+        "y": 270
+      }
+    ]
+  }
+}
