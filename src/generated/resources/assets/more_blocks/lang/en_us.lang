@@ -1,3 +1,17 @@
 itemGroup.more_blocks=更多方块
 #方块
 tile.test_block.name=测试方块
+tile.red.name=red
+tile.block_yellow.name=block_yellow
+tile.orange.name=orange
+tile.cyan.name=cyan
+tile.brick.name=brick
+tile.blue_glass.name=blue_glass
+tile.golden_leaves.name=golden_leaves
+tile.white_wood.name=white_wood
+tile.white_brick.name=white_brick
+tile.grassland.name=grassland
+tile.autumn_grassland.name=autumn_grassland
+tile.purple_grass.name=purple_grass
+tile.blue_grass.name=blue_grass
+tile.arrow.name=arrow
