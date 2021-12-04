@@ -6,15 +6,7 @@
       },
       {
         "model": "more_blocks:sakura_board",
-        "y": 90
-      },
-      {
-        "model": "more_blocks:sakura_board",
         "y": 180
-      },
-      {
-        "model": "more_blocks:sakura_board",
-        "y": 270
       }
     ]
   }

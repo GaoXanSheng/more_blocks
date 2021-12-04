@@ -6,15 +6,7 @@
       },
       {
         "model": "more_blocks:pavement_white_arrow",
-        "y": 90
-      },
-      {
-        "model": "more_blocks:pavement_white_arrow",
         "y": 180
-      },
-      {
-        "model": "more_blocks:pavement_white_arrow",
-        "y": 270
       }
     ]
   }

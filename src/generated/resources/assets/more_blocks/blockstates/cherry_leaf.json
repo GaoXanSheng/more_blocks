@@ -6,15 +6,7 @@
       },
       {
         "model": "more_blocks:cherry_leaf",
-        "y": 90
-      },
-      {
-        "model": "more_blocks:cherry_leaf",
         "y": 180
-      },
-      {
-        "model": "more_blocks:cherry_leaf",
-        "y": 270
       }
     ]
   }

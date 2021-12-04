@@ -10,7 +10,7 @@ import java.util.List;
 public class BlockItems {
     public static List<Item> items = new ArrayList<>();
     public static final List<Block> blocks = new ArrayList<>();
-    //    Registered items
+    //    注册物品
     public static final Block arrow = new FastBlock("arrow");
     public static final Block autumn_grassland = new FastBlock("autumn_grassland");
     public static final Block better_looking_ice = new FastBlock("better_looking_ice");

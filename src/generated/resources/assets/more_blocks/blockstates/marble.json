@@ -6,15 +6,7 @@
       },
       {
         "model": "more_blocks:marble",
-        "y": 90
-      },
-      {
-        "model": "more_blocks:marble",
         "y": 180
-      },
-      {
-        "model": "more_blocks:marble",
-        "y": 270
       }
     ]
   }

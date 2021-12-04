@@ -6,15 +6,7 @@
       },
       {
         "model": "more_blocks:white_glass",
-        "y": 90
-      },
-      {
-        "model": "more_blocks:white_glass",
         "y": 180
-      },
-      {
-        "model": "more_blocks:white_glass",
-        "y": 270
       }
     ]
   }

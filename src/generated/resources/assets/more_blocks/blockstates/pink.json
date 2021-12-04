@@ -6,15 +6,7 @@
       },
       {
         "model": "more_blocks:pink",
-        "y": 90
-      },
-      {
-        "model": "more_blocks:pink",
         "y": 180
-      },
-      {
-        "model": "more_blocks:pink",
-        "y": 270
       }
     ]
   }

@@ -6,15 +6,7 @@
       },
       {
         "model": "more_blocks:better_looking_ice",
-        "y": 90
-      },
-      {
-        "model": "more_blocks:better_looking_ice",
         "y": 180
-      },
-      {
-        "model": "more_blocks:better_looking_ice",
-        "y": 270
       }
     ]
   }

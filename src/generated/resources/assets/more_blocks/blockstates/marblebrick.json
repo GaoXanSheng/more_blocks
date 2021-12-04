@@ -2,10 +2,10 @@
   "variants": {
     "normal": [
       {
-        "model": "more_blocks:pink_leaves"
+        "model": "more_blocks:marblebrick"
       },
       {
-        "model": "more_blocks:pink_leaves",
+        "model": "more_blocks:marblebrick",
         "y": 180
       }
     ]
