@@ -6,7 +6,15 @@
       },
       {
         "model": "more_blocks:cyan",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:cyan",
         "y": 180
+      },
+      {
+        "model": "more_blocks:cyan",
+        "y": 270
       }
     ]
   }

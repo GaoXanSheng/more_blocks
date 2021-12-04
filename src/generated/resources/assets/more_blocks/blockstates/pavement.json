@@ -6,7 +6,15 @@
       },
       {
         "model": "more_blocks:pavement",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:pavement",
         "y": 180
+      },
+      {
+        "model": "more_blocks:pavement",
+        "y": 270
       }
     ]
   }

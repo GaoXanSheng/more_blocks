@@ -6,7 +6,15 @@
       },
       {
         "model": "more_blocks:golden_leaves",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:golden_leaves",
         "y": 180
+      },
+      {
+        "model": "more_blocks:golden_leaves",
+        "y": 270
       }
     ]
   }

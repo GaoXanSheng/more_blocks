@@ -6,7 +6,15 @@
       },
       {
         "model": "more_blocks:gold_and_black_block",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:gold_and_black_block",
         "y": 180
+      },
+      {
+        "model": "more_blocks:gold_and_black_block",
+        "y": 270
       }
     ]
   }

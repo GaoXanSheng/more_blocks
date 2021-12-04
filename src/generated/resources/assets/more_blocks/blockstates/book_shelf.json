@@ -6,7 +6,15 @@
       },
       {
         "model": "more_blocks:book_shelf",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:book_shelf",
         "y": 180
+      },
+      {
+        "model": "more_blocks:book_shelf",
+        "y": 270
       }
     ]
   }

@@ -6,7 +6,15 @@
       },
       {
         "model": "more_blocks:pink_leaves",
+        "y": 90
+      },
+      {
+        "model": "more_blocks:pink_leaves",
         "y": 180
+      },
+      {
+        "model": "more_blocks:pink_leaves",
+        "y": 270
       }
     ]
   }
