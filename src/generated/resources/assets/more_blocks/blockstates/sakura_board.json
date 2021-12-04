@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:sakura_board"
+      },
+      {
+        "model": "more_blocks:sakura_board",
+        "y": 180
+      }
+    ]
+  }
+}

@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "block": "node fastblock.js",
+    "lang": "node fastlang.js",
+    "java": "node fastjava.js"
   },
   "author": "",
   "license": "ISC"

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:pavement"
+      },
+      {
+        "model": "more_blocks:pavement",
+        "y": 180
+      }
+    ]
+  }
+}

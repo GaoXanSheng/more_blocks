@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:gold_and_black_block"
+      },
+      {
+        "model": "more_blocks:gold_and_black_block",
+        "y": 180
+      }
+    ]
+  }
+}

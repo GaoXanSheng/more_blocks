@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:better_looking_ice"
+      },
+      {
+        "model": "more_blocks:better_looking_ice",
+        "y": 180
+      }
+    ]
+  }
+}

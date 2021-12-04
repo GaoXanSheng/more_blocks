@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:purple"
+      },
+      {
+        "model": "more_blocks:purple",
+        "y": 180
+      }
+    ]
+  }
+}

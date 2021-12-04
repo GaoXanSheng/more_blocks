@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:command_block"
+      },
+      {
+        "model": "more_blocks:command_block",
+        "y": 180
+      }
+    ]
+  }
+}

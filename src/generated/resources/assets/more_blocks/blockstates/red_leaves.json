@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:red_leaves"
+      },
+      {
+        "model": "more_blocks:red_leaves",
+        "y": 180
+      }
+    ]
+  }
+}

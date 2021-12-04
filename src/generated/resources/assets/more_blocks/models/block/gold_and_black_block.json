@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "more_blocks:blocks/Block"
+    "all": "more_blocks:blocks/gold_and_black_block"
   }
 }

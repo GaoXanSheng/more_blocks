@@ -19,9 +19,7 @@ DirData().then(r => {
         "variants": {
           "normal": [
             { "model": `${mod}:${data[i]}` },
-            { "model": `${mod}:${data[i]}`, "y": 90 },
-            { "model": `${mod}:${data[i]}`, "y": 180 },
-            { "model": `${mod}:${data[i]}`, "y": 270 }
+            { "model": `${mod}:${data[i]}`, "y": 180 }
           ]
         }
       }

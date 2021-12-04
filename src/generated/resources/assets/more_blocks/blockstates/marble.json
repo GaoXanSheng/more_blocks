@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:marble"
+      },
+      {
+        "model": "more_blocks:marble",
+        "y": 180
+      }
+    ]
+  }
+}

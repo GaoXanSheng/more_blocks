@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "more_blocks:yellow_glass"
+      },
+      {
+        "model": "more_blocks:yellow_glass",
+        "y": 180
+      }
+    ]
+  }
+}
